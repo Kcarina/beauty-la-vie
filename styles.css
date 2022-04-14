@@ -1,0 +1,95 @@
+table, th, td {
+  background-color: #93bcc8;
+  font-size: XX-large;
+}
+
+hr {
+  border-style: none;
+  background-color: #93bcc8;
+  height: 2px;
+}
+
+h1 {
+  text-align: center;
+  word-spacing: 100px;
+  font-size: large;
+  color: black;
+}
+
+a {
+  color: black;
+  font-size: medium;
+}
+
+button {
+  text-align: justify;
+  font-size: 10px;
+}
+
+div.gallery {
+  border: 1px solid #777;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+}
+
+.menu {
+  margin-bottom: 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: medium;
+  position: relative;
+  left: 100px;
+  right: 150px;
+}
+
+.desc {
+  text-decoration-color: #9977A6;
+}
